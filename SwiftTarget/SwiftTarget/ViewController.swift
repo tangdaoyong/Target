@@ -14,6 +14,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         /*
+         https://github.com/tangdaoyong/Target
          build Settings -> Other Swift Flags ->Debug
          添加SWIFTTWO宏定义：
          $(inherited)
