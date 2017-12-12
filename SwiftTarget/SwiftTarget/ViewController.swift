@@ -20,18 +20,25 @@ class ViewController: UIViewController {
          -D
          SWIFTTWO
          */
+        
         #if DEBUG
+            
             print("DEBUG文件名:\(#file)")
+            
         #endif
         
         #if SWIFTONE
+            
             print("SWIFTONE文件名:\(#file)")
             self.view.backgroundColor = .blue
+            
         #endif
         
         #if SWIFTTWO
+            
             print("SWIFTONE文件名:\(#file)")
             self.view.backgroundColor = UIColor.green
+            
         #endif
     }
 
